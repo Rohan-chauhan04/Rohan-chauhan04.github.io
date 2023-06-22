@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(12, 12, 93);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.contact {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+
+  button {
+    padding: 12px;
+    color: white;
+    background: #0b0b42;
+    border-radius: 8px;
+    border: 2px solid white;
+    /* padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px; */
+    cursor: pointer;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  
